@@ -5,7 +5,7 @@
 ## Features
 
 - **Image Capture**: Take photos directly within the app or select images from your photo library.
-- **OCR Integration**: Automatically extract text from the images using OCR technology.
+- **OCR Integration**: Automatically extract text from the images using the Vision framework.
 - **PDF Creation**: Convert the extracted text and images into a PDF document.
 - **User-Friendly Interface**: Intuitive UI for a seamless scanning and PDF creation experience.
 
@@ -29,6 +29,4 @@ To get started with OCR Scanner to PDF:
 
 3. **Open the project in Xcode and run it on a simulator or device.**
 
-4. **Ensure you have set up any necessary configurations for OCR functionality.** (You might need to integrate an OCR library or API, such as Apple's Vision framework or a third-party service.)
-
-
+4. **This project uses the Vision framework for OCR functionality.** Ensure you have the necessary permissions and configurations set up to use Vision's text recognition features.
